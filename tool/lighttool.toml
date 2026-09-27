@@ -1,10 +1,10 @@
 [tool]
-id = "com.thelightphone.app"
-label = "Light SDK Tool"
+id = "com.thelightphone.pitchpipe"
+label = "Pitch Pipe"
 versionCode = 1
-versionName = "1.0.0"
-permissions = ["android.permission.INTERNET"]
+versionName = "0.1.0"
+permissions = []
 capabilities = []
-# change if you run this on an LP3!
-# serverPackage = "com.lightos"
+# emulator for local dev; switch to "com.lightos" when sideloading to a real LP3
 serverPackage = "com.thelightphone.sdk.emulator"
+# serverPackage = "com.lightos"
